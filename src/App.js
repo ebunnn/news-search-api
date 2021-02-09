@@ -31,7 +31,6 @@ class App extends Component {
       this.apiCall(this.state.searchWords)
     console.log(this.state.submit)
   }
-// 'category=entertainment&' + 'category=technology&'+ 'category=sports&' +
 
   apiCall() {
     var url = 'http://newsapi.org/v2/top-headlines?' +
